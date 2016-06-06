@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>fsviewer</id>
+    <version>5.5.0.0</version>
+    <title>FastStone Viewer</title>
+    <authors>FastStone Software</authors>
+    <owners>Mik</owners>
+    <projectUrl>http://www.faststone.org/FSViewerDetail.htm</projectUrl>
+    <iconUrl>https://github.com/alanstevens/ChocoPackages/raw/master/FSViewer/FSViewer.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FastStone Image Viewer is a fast, stable, user-friendly image browser, converter and editor. It has a nice array of features that include image viewing, management, comparison, red-eye removal, emailing, resizing, cropping, retouching and color adjustments. Its innovative but intuitive full-screen mode provides quick access to EXIF information, thumbnail browser and major functionalities via hidden toolbars that pop up when your mouse touches one of the four edges of the screen. Other features include a high quality magnifier and a musical slideshow with 150+ transitional effects, as well as lossless JPEG transitions, drop shadow effects, image annotation, scanner support, histogram and much more. It supports all major graphic formats (BMP, JPEG, JPEG 2000, animated GIF, PNG, PCX, PSD, EPS, TIFF, WMF, ICO and TGA) and popular digital camera RAW formats (CRW, CR2, NEF, PEF, RAF, MRW, ORF, SRF, ARW, SR2, RW2 and DNG).</description>
+    <summary>FastStone Image Viewer is a fast, stable, user-friendly image browser, converter and editor.</summary>
+    <tags>image viewer</tags>
+  </metadata>
+</package>
