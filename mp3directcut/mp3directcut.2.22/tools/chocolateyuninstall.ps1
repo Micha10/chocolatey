@@ -1,0 +1,1 @@
+﻿Uninstall-ChocolateyZipPackage mp3directcut

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>mp3directcut</id>
+    <title>mp3directcut</title>
+    <version>2.22</version>
+    <authors>Martin Pesch</authors>
+    <owners>Mik</owners>
+    <summary>mp3DirectCut is a fast and extensive audio editor and recorder for compressed mp3.</summary>
+    <description>mp3DirectCut is a fast and extensive audio editor and recorder for compressed mp3. You can directly cut, copy, paste or change the volume with no need to decompress your files for audio editing. This saves encoding time and preserves the original quality, because nothing will be re-encoded. The built in recorder creates mp3 on the fly from your audio input. Using Cue sheets, pause detection or Auto cue you can easily divide long files. 
+    </description>
+    <projectUrl>http://mpesch3.de1.cc/mp3dc.html</projectUrl>
+    <tags>mp3directcut admin</tags>
+    <copyright>http://mpesch3.de1.cc/mp3dc.html</copyright>
+    <licenseUrl>http://mpesch3.de1.cc/mp3dc.html</licenseUrl>
+    <iconUrl>http://mpesch3.de1.cc/img/mp3dcicon.png</iconUrl>
+    <dependencies>
+		<dependency id="chocolatey-fosshub.extension" />
+	</dependencies>    
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
