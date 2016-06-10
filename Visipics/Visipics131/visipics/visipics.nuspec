@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>visipics</id>
+    <title>visipics (Install)</title>
+    <version>1.31</version>
+    <authors>Guillaume FOUET (aka Ozone)</authors>
+    <owners>Mik</owners>
+    <summary>Visipics compares pictures and find duplicates or similar images on your hard drive</summary>
+    <description>If you get too many pictures on your harddrive, downloaded or photographied, from several different sources, it may happen that you have many duplicates. In that case you need a quick and easy to use program that finds and deletes all your duplicates.
+
+VisiPics does more than just look for identical files, it goes beyond checksums to look for similar pictures and does it all with a simple user interface. First, you select the root folder or folders to find and catalogue all of your pictures. It then applies five image comparison filters in order to measure how close pairs of images on the hard drive are.
+
+Visipic is a program that is considerably faster than any other commercial product and has an interface that let you do other things while Visipics automatically finds your duplicated images. It will detect two different resolution files of the same picture as a duplicate, or the same picture saved in different formats, or duplicates where only minor cosmetic changes have taken place.
+
+All detected duplicates are shown side by side with pertinent information such as file name, type and size being displayed. Its auto-select mode let you choose if you want to keep the higher resolution picture, space-saving filetype, smaller filesize or all of the above. If you are insecure over what you really want to delete you can manually select the images you don't want to keep and delete them yourself.  
+    </description>
+    <projectUrl>http://www.visipics.info</projectUrl>    
+    <docsUrl>http://www.visipics.info/index.php?title=Support</docsUrl>    
+    <tags>visipics images admin</tags>
+    <copyright>VisiPics is Copyright (C) 2004-2008 Guillaume FOUET (aka Ozone) </copyright>
+    <licenseUrl>http://www.visipics.info/index.php?title=VisiPics:About</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/Micha10/chocolatey/master/Visipics/VisiPics.png</iconUrl>
+    <dependencies>
+      <dependency id="chocolatey-fosshub.extension" />
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
