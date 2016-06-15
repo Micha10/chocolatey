@@ -2,9 +2,8 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>visipics</id>
-    <title>visipics (Install)</title>
+    <title>VisiPics (Install)</title>
     <version>1.31</version>
     <authors>Guillaume FOUET (aka Ozone)</authors>
     <owners>Mik</owners>
@@ -19,7 +18,7 @@ All detected duplicates are shown side by side with pertinent information such a
     </description>
     <projectUrl>http://www.visipics.info</projectUrl>    
     <docsUrl>http://www.visipics.info/index.php?title=Support</docsUrl>    
-    <tags>visipics images admin</tags>
+    <tags>visipics images duplicates admin</tags>
     <copyright>VisiPics is Copyright (C) 2004-2008 Guillaume FOUET (aka Ozone) </copyright>
     <licenseUrl>http://www.visipics.info/index.php?title=VisiPics:About</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
