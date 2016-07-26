@@ -2,7 +2,7 @@
 $packageName = 'DocFetcher' 
 $registryUninstallerKeyName = 'DocFetcher' 
 $installerType = 'EXE' 
-$url = 'http://sourceforge.net/projects/docfetcher/files/docfetcher/1.1.17/docfetcher_1.1.17_win32_setup.exe/download' 
+$url = 'http://sourceforge.net/projects/docfetcher/files/docfetcher/1.1.18/docfetcher_1.1.18_win32_setup.exe/download' 
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
