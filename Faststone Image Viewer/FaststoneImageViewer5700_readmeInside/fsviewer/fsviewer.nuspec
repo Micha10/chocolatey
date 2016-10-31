@@ -15,6 +15,7 @@
     <tags>image viewer admin</tags>    
     <licenseUrl>http://www.faststone.org/order.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://github.com/Micha10/chocolatey/blob/master/Faststone%20Image%20Viewer/FaststoneImageViewer.png</iconUrl>
 	<releaseNotes>http://www.faststone.org/FSViewerDetail.htm#History</releaseNotes>
   </metadata>
   <files>
