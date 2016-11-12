@@ -4,9 +4,10 @@
   <metadata>
     <id>visipics</id>
     <title>VisiPics (Install)</title>
-    <version>1.31</version>
+    <version>1.31.1</version>
     <authors>Guillaume FOUET (aka Ozone)</authors>
     <owners>Mik</owners>
+	 <packageSourceUrl>https://chocolatey.org/packages/visipics</packageSourceUrl>
     <summary>Visipics compares pictures and find duplicates or similar images on your hard drive</summary>
     <description>If you get too many pictures on your harddrive, downloaded or photographied, from several different sources, it may happen that you have many duplicates. In that case you need a quick and easy to use program that finds and deletes all your duplicates.
 
@@ -16,6 +17,8 @@ Visipic is a program that is considerably faster than any other commercial produ
 
 All detected duplicates are shown side by side with pertinent information such as file name, type and size being displayed. Its auto-select mode let you choose if you want to keep the higher resolution picture, space-saving filetype, smaller filesize or all of the above. If you are insecure over what you really want to delete you can manually select the images you don't want to keep and delete them yourself.  
     </description>
+	   <releaseNotes>1.31.1 added chocolatey package advices</releaseNotes>
+ 
     <projectUrl>http://www.visipics.info</projectUrl>    
     <docsUrl>http://www.visipics.info/index.php?title=Support</docsUrl>    
     <tags>visipics images duplicates admin</tags>
@@ -24,7 +27,7 @@ All detected duplicates are shown side by side with pertinent information such a
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/Micha10/chocolatey/master/Visipics/VisiPics.png</iconUrl>
     <dependencies>
-      <dependency id="chocolatey-fosshub.extension" />
+      <dependency id="chocolatey-fosshub.extension" version="0.2.0" />
     </dependencies>    
   </metadata>
   <files>
