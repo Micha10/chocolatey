@@ -22,6 +22,8 @@
     </dependencies>
 	<packageSourceUrl>https://github.com/Micha10/chocolatey/tree/master/DocFetcher</packageSourceUrl>
     <releaseNotes>https://github.com/Micha10/chocolatey/blob/master/DocFetcher/versionhistory.md</releaseNotes>
+	<docsUrl>http://docfetcher.sourceforge.net/wiki/doku.php</docsUrl>
+	<projectSourceUrl>git://git.code.sf.net/p/docfetcher/code</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

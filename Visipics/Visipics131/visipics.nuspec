@@ -29,6 +29,7 @@ All detected duplicates are shown side by side with pertinent information such a
     <dependencies>
       <dependency id="chocolatey-fosshub.extension" version="0.2.0" />
     </dependencies>    
+	<packageSourceUrl>https://github.com/Micha10/chocolatey/tree/master/DocFetcher</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
