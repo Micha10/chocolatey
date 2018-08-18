@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 
 $packageName= 'fsviewer'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://www.faststonesoft.net/DN/FSViewerSetup65.exe'
-
+$url = 'http://www.faststonesoft.net/DN/FSViewerSetup65.exe'
+$checksum32 = '69a355c656a325ae6b2310ca1c42434e141703cfae5f6275272c7f20a4838af9'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'FastStone Image Viewer'
 
-  checksum      = '69a355c656a325ae6b2310ca1c42434e141703cfae5f6275272c7f20a4838af9'
+  checksum      = $checksum32
   checksumType  = 'sha256'
   
 
