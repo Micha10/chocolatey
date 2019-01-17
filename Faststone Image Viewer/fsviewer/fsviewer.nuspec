@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fsviewer</id>
-    <version>6.7.0.20181106</version>
+    <version>6.8</version>
     <owners>H. Alan Stevens</owners>
     <title>FastStone Image Viewer</title>
     <authors>FastStone Soft</authors>

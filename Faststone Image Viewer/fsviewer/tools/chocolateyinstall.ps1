@@ -3,8 +3,8 @@
 
 $packageName= 'fsviewer'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'http://www.faststonesoft.net/DN/FSViewerSetup67.exe'
-$checksum32 = 'fea31a30ea7047c59f18dd4a90c1a5a9a5e30fdad387a0d7ebf1f0f6b98e3465'
+$url = 'http://www.faststonesoft.net/DN/FSViewerSetup68.exe'
+$checksum32 = 'd5b1451b6deb79437fd89a2f958f04a946d3aa19a833f06a598d921133c0c9a1'
 
 $packageArgs = @{
   packageName   = $packageName
