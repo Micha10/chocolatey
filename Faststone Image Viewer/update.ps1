@@ -1,4 +1,4 @@
-import-module -Name au\AU
+import-module -Name F:\Myprg\Win\Chocolatey\AutomaticUpdater\au\AU
 
 $latest_release_url = 'http://docfetcher.sourceforge.net/de/download.html' 
 
