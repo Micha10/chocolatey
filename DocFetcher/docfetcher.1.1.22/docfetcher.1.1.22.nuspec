@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>docfetcher.1.1.22</id>
     <title>DocFetcher (Install)</title>
-    <version>1.1.22.20180810</version>
+    <version>1.1.22.20190412</version>
     <authors>DocFetcher Development Team</authors>
     <owners>Mik</owners>
     <summary>DocFetcher is an Open Source desktop search application</summary>
