@@ -1,6 +1,6 @@
 import-module -Name au\AU
 
-$latest_release_url = 'http://www.faststone.org/FSViewerDownload.htm' 
+$latest_release_url = 'https://www.faststone.org/FSIVDownload.htm' 
 
 #$latest_release = Invoke-WebRequest $latest_release_url | ConvertFrom-Json
 #  $latest_release.Links | ? href -match '\.exe/download$' | % href
